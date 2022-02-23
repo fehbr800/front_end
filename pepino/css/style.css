@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}	
+
+body{
+   background-color: aqua;
+
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+img.imagem{
+    width: 100%;
+    max-width: 1280;
+}
+
+h2.a01{
+    text-align: center;
+}
+
+div p{
+    margin-top: 8px;
+    text-align: center;
+}
+
+h2.a02{
+    text-align: center;
+    margin-top: 8px;   
+}
+
+ul li{
+    text-align: center;
+    margin-top: 2%;
+    list-style-type: circle;
+}
+.link{
+    text-align: center;
+    margin-top: 8px;
+    
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
