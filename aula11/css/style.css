@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.mosaico-single{
+	float: left;
+	width: calc(100% / 2);
+    left: 20px;
+    display: inline-flex;
+    position: relative;
+    
+}
+
+.img-mosaico-single{
+	width: 600px;
+    height: 300px;
+	padding-top: 100px;
+    
+	background-color: purple;
+    margin-top: 15px;
+    box-shadow: 0px 10px 7px;
+    position: relative;
+ 
+    
+}
+
