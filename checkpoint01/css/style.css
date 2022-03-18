@@ -23,7 +23,7 @@ html,body{
 }
 
 header{
-    background-color: rgba(0,21,93,0.06);
+  
 	padding: 20px 2%;
 }
 
@@ -90,7 +90,7 @@ header nav.menu ul{
 }
 
 header nav.menu ul li{
-    font-size: 25px;
+    font-size: 30px;
     padding: 0 20px;
     text-transform: uppercase;
     margin: 8px;
@@ -153,35 +153,36 @@ div.wallpaper{
 
 }
 
+
+
 .curiosidades{
     display: flex;
-   justify-content: center;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
+
+    
 }
 
 
 .box{
+    
     display: inline-block;
-    max-width: 374px;
-    margin: calc(5% / 3);
+    flex-wrap: wrap;
+    margin: 30px;
     position: relative;
-    left: 70px;
-   
-
-}
-
-img.img01{
-    display: block;
-    width: 374px;
-    height: 518px;
-    border-radius: 18px;
     
 }
 
-.botao{
-    display: inline-block;
+img.img01{
+    gap: 0.5;
+    display: flex;
+    width: 374px;
+    height: 518px;
+    border-radius: 18px;
+   
+    
+}
+
+button.botao{
+    position: absolute;
     background-color: red;
     color: #FFF9F9;
     width: 145px;
@@ -203,6 +204,7 @@ img.img01{
 }
 
 section.vd{
+    margin-top: 50px;
    position: relative;
     width: 100%;
     
@@ -221,13 +223,12 @@ section.vd .box-vd{
 
 .vd .box-vd iframe{
     position: absolute;
-	left: 320px;
+	left: 325px;
 	top: 10px;
 	width: 100%;
 	height: 100%;
-    display: flex;
-    align-items: center;
- 
+    display: block;
+   
 
 }
 
@@ -289,41 +290,7 @@ footer{
 
 
 
-@media screen and (max-width: 1266px){
 
-
-    
-    .box{
-        width: 100%;
-        padding-top: calc(5% / 3);
-        position: relative;
-        margin: 0 10px 10px auto;
-       
-      
-    }
-    
-   
-
-}
-
-@media screen and (max-width: 1173px){
-
-
-    
-    .box{
-        width: 100%;
-        padding-top: calc(5% / 3);
-        position: relative;
-        margin: 0 9px 9px auto;
-       
-      
-     
-    }
-
-
-    
-
-}
 
 @media screen  and (max-width: 830px) {
 
@@ -337,71 +304,86 @@ footer{
             display: block;
         }
         
-
-          
-    .box{
-        display: block;
-        justify-content: center;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        left: 0;
-        top: 0;
-        right: 0;
-        margin: 0 auto;
-      
-     
-    }
-
- 
-       
-}
-
-@media screen and (max-width: 830px){
-  
+        
     section.vd .box-vd{
-        width: 400px;
-        height: 300px;
-        position: relative;
-        right: 285px;
-        display: inline-block;
-    
-    }
-
-    .sobre h1{
-      width: 100%;  
-      display: block;
-    
-    }
-
-    .sobre p{
-        width: 90%;  
-        display: block;
-      
-      }
-
-    .vd h1{
+        box-sizing: border-box;
+        display: flex;
         width: 100%;
-        display: block;
-        float: none;
-
+    
+    }
+  
+  
+    .vd .box-vd iframe{
+        margin: 0 auto;
+        left: 50px;
+        width: 400px;
+    
     }
 
 
 
-    footer{
-       width: 100%;
-       
-      
-    }
     
     .footer-block{
         width: calc(20% / 3);
         display: inline-flex;
         margin: 50px;
         
+        
        
     }
-            
+        
+
+    }
+
+@media screen and (max-width: 901px){
+
+    
+    section.vd .box-vd{
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+    
+    }
+  
+  
+    .vd .box-vd iframe{
+        margin: 0 auto;
+        left: 20px;
+        width: 400px;
+        height: 300px;
+    
+    }
+  
+
+
+}
+
+@media screen and (max-width: 1306px){
+
+    .box{
+        position: relative;
+        margin: 0 auto;
+        padding: 1%;
      
+  
+    }
+    
+
+}
+
+@media screen and (max-width: 1196px){
+
+    .box{
+       justify-content: center;
+       position: relative;
+       left: 10%;
+       margin-bottom: 25px;
+       flex-wrap: wrap;
+       gap: 1;
+
+
+  
+    }
+    
+
 }
