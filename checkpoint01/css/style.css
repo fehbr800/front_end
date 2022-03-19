@@ -1,4 +1,5 @@
 
+
 *{
 	margin: 0;
 	padding: 0;
@@ -259,35 +260,10 @@ footer{
 }
 
 
-
-.instagram{
-    display: inline-flex;
+.footer-block a{
     width: 50px;
-    position: relative;
-  
-
-
+    margin-left: 200px;
 }
-
-.linkedin{
-    display: inline-flex;
-    width: 50px;
-    position:relative;
-    
-   
-
-}
-.github{
-    display: inline-flex;
-    position: relative;
-    width: 50px;
-    
-    
-    
-   
-
-}
-
 
 
 
@@ -335,7 +311,7 @@ footer{
 
     }
 
-@media screen and (max-width: 901px){
+@media  (max-width: 901px){
 
     
     section.vd .box-vd{
@@ -358,20 +334,9 @@ footer{
 
 }
 
-@media screen and (max-width: 1306px){
 
-    .box{
-        position: relative;
-        margin: 0 auto;
-        padding: 1%;
-     
-  
-    }
-    
 
-}
-
-@media screen and (max-width: 1196px){
+@media (min-width: 1196px) and (max-width: 1306px){
 
     .box{
        justify-content: center;
